@@ -1,0 +1,6 @@
+.build/
+node_modules/
+.env
+.env.*
+/write in this folder/*
+!/write in this folder/.gitkeep

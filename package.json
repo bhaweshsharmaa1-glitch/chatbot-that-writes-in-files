@@ -1,0 +1,14 @@
+{
+  "name": "stillroom-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:native": "node build-native.mjs",
+    "prestart": "npm run build:native",
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
